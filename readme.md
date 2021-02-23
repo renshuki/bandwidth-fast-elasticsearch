@@ -13,6 +13,7 @@ Add the following environment variables:
 - `FASTCOM_TOKEN` (Fast.com API token)
 
 ## Install
+`npm install`
 
 ## Usage
 `node index.js` to run the script.
