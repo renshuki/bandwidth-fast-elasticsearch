@@ -1,0 +1,23 @@
+{
+  "name": "bandwidth-fast-elasticsearch",
+  "version": "1.0.0",
+  "description": "This tiny script retrieve download bandwidth speed every 5 minutes and send the data point to Elasticsearch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renshuki/bandwidth-fast-elasticsearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renshuki/bandwidth-fast-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/renshuki/bandwidth-fast-elasticsearch#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.11.0",
+    "fast-speedtest-api": "^0.3.2"
+  }
+}
